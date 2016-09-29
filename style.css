@@ -1,0 +1,91 @@
+body {
+	background: #f2f3f4;
+}
+
+.block {
+	display: block;
+}
+
+.header-main {
+	background: url(img/bg-header.jpg) center no-repeat;
+	height: 270px;
+}
+
+.header-main .logo-ug {
+	background: url(img/logo-ug.png) center no-repeat;
+	margin: 40px auto 20px;
+	height: 107px;
+	width: 271px;
+}
+
+.header-main .menu {
+	font-size: 0;
+	margin: 40px 0 0;
+	padding: 0;
+	text-align: center;
+}
+
+.header-main .menu li {
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.header-main .menu a {
+	background: rgba(26, 32, 39, 0.7);
+	border-radius: 3px;
+	color: rgba(180, 196, 214, .5);
+	font-family: 'Crete Round', serif;
+	font-size: 15px;
+	padding: 8px 15px;
+	text-transform: uppercase;
+}
+
+.header-main .menu a:hover {
+	background: #115ec9;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.post-list {
+	margin: 50px 0;
+}
+
+article.post-item {
+	margin: 20px 0;
+}
+
+article.post-item h1 {
+	color: #383e44;
+	font-family: 'Crete Round', serif;
+	font-size: 32px;
+}
+
+article.post-item .post-detail {
+	color: #808c9a;
+	font-family: 'Roboto slab', serif;
+	font-size: 13px;
+}
+
+article.post-item .post-img {
+	margin-top: 20px;
+}
+
+article.post-item .post-img img {
+	border-radius: 2px;
+}
+
+article.post-item .post-content {
+	margin-top: 25px;
+}
+
+article.post-item img {
+	max-width: 100%;
+}
+
+article.post-item .post-content p {
+	color: #3d3d3d;
+	font-family: 'Roboto slab', serif;
+	font-size: 15px;
+	text-align: justify;
+	margin: 5px 0 10px;
+}
